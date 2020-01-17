@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset='utf8'>
+    <meta name='viewport' content='width=device-width'>
+
+    <title>Svelte app</title>
+
+    <link rel='icon' type='image/png' href='favicon.png'>
+    <link rel='stylesheet' href='global.css'>
+    <link rel='stylesheet' href='bundle.css'>
+   <!--  <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css"> -->
+ 
+</head>
+
+<body>
+   <!--  <script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script> -->
+    <script src='bundle.js'></script>
+    <script
+        src="//g.alicdn.com/fdilab/lib3rd/viewport-units-buggyfill/0.6.2/??viewport-units-buggyfill.hacks.min.js,viewport-units-buggyfill.min.js"></script>
+    <script>
+        window.onload = function () {
+            window.viewportUnitsBuggyfill.init({ hacks: window.viewportUnitsBuggyfillHacks });
+        }
+    </script>
+</body>
+
+</html>
